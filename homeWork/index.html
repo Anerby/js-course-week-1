@@ -1,0 +1,46 @@
+<!DOCTYPE html>
+<html lang="en">
+<head>
+    <meta charset="UTF-8">
+    <meta name="viewport" content="width=device-width, initial-scale=1.0">
+    <title>Document</title>
+
+    <script>
+    //alert("Мазе бот v1 на Вашите услуги")
+// var firstName = prompt("Въведете вашето първо име:");
+// var surName = prompt("Въведете вашето бащино име:");
+// var ageNumber = prompt("Въведете вашата възраст:");
+// var gender = prompt("Въведете вашия пол:");
+
+// console.log(`Добре дошъл в мазето на баба ${firstName} ${surName}\nТи си на ${ageNumber} години`);
+
+// var storedGoodsType = ["ябълково", "пушено", "сливов", "мариновани", "прасенце"];
+// var storedGoodsCharacteristics = ["вино", "месо", "мармалад", "чушки", "касичка"];
+// var storedGoodsQuantity = [10, 5, 9, 4, "184 лв и 35 стотинки"];
+// var storedGoodsSignatureID = ["C7544", "M7441", "S6491", "P7485", "B6584"];
+
+// var storedGoodsTypeCharacteristics = `(${storedGoodsType[0]} + ${storedGoodsCharacteristics[0]})`
+alert("Мазе бот v1 на Вашите услуги");
+
+var firstName = prompt("Въведете вашето първо име:");
+var surName = prompt("Въведете вашето бащино име:");
+var ageNumber = prompt("Въведете вашата възраст:");
+var gender = prompt("Въведете вашия пол:");
+
+console.log(`Добре дошъл в мазето на баба ${firstName} ${surName}\nТи си на ${ageNumber} години`);
+
+var storedGoodsTypes = ["ябълково", "пушено", "сливов", "мариновани", "прасенце"];
+var storedGoodsCharacteristics = ["вино", "месо", "мармалад", "чушки", "касичка"];
+var storedGoodsQuantities = [10, 5, 9, 4, "184 лв и 35 стотинки"];
+var storedGoodsSignatureIDs = ["C7544", "M7441", "S6491", "P7485", "B6584"];
+
+for (var i = 0; i < storedGoodsTypes.length; i++) {
+    var concatenatedDescription = `${storedGoodsTypes[i]} ${storedGoodsCharacteristics[i]}, Количество: ${storedGoodsQuantities[i]}, Идентификатор: ${storedGoodsSignatureIDs[i]}`;
+    console.log(concatenatedDescription);
+}
+    </script>
+</head>
+<body>
+    
+</body>
+</html>
